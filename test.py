@@ -63,7 +63,7 @@ def main():
 			f = f.replace("]","")
 			f = f.replace("\'","")
 			output = line + "," + f + "\n"
-      f2.write(output)
+			f2.write(output)
 
 if __name__ == '__main__':
 	main()
